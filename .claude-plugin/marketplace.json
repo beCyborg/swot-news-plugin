@@ -1,0 +1,17 @@
+{
+  "name": "swot-news-plugin",
+  "description": "SWOT News — ежедневный персональный SWOT-анализ мировых новостей с Kagi News",
+  "owner": {
+    "name": "beCyborg"
+  },
+  "plugins": [
+    {
+      "name": "swot-news",
+      "description": "Собирает батч Kagi News, анализирует его параллельными субагентами через призму личного профиля и пишет дельта-выпуск SWOT в Markdown",
+      "author": { "name": "beCyborg" },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/beCyborg/swot-news-plugin"
+    }
+  ]
+}

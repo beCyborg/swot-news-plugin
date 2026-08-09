@@ -1,0 +1,10 @@
+{
+  "name": "swot-news",
+  "description": "Собирает батч Kagi News, анализирует его параллельными субагентами через призму личного профиля и пишет дельта-выпуск SWOT в Markdown",
+  "author": {
+    "name": "beCyborg"
+  },
+  "repository": "https://github.com/beCyborg/swot-news-plugin",
+  "license": "MIT",
+  "keywords": ["news", "swot", "kagi", "briefing", "daily", "analysis", "digest"]
+}

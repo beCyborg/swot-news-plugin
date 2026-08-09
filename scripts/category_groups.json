@@ -1,0 +1,86 @@
+{
+  "_comment": "Статическая группировка категорий Kagi News по тематическим блокам для онбординга (/swot-news:setup, шаг 3). Каталог живой — категории появляются и исчезают; неизвестные раскладываются эвристикой: имя с ' | ' → local, иначе other. Проверено на каталоге 2026-08-09 (165 категорий, покрытие 100%).",
+  "_order": ["world", "security", "economy", "tech", "science", "energy", "europe_west", "europe_nordic", "europe_central", "americas", "asia_pacific", "africa_mena", "society_culture", "sports", "local", "other"],
+  "groups": {
+    "world": {
+      "label": "Мир и глобальная политика",
+      "hint": "Общая мировая повестка и крупнейшие игроки",
+      "categories": ["world", "usa", "uk", "china", "russia", "europe", "asia", "diplomacy"]
+    },
+    "security": {
+      "label": "Оборона, конфликты, Ближний Восток",
+      "hint": "Войны, армии, ближневосточный узел",
+      "categories": ["defense", "middle_east", "iran", "israel", "palestine", "turkey"]
+    },
+    "economy": {
+      "label": "Экономика, бизнес, крипта",
+      "hint": "Макро, рынки, компании, криптовалюты",
+      "categories": ["business", "economy", "cryptocurrency"]
+    },
+    "tech": {
+      "label": "Технологии, AI, кибербезопасность",
+      "hint": "AI-рынок, Big Tech, уязвимости и утечки",
+      "categories": ["ai", "tech", "cybersecurity", "google", "microsoft", "apple", "linux_oss", "smart_home", "music_technology", "cloud_computing", "privacy"]
+    },
+    "science": {
+      "label": "Наука, космос, медицина",
+      "hint": "Исследования, здравоохранение, запуски",
+      "categories": ["science", "space", "medicine", "healthcare_|_germany"]
+    },
+    "energy": {
+      "label": "Энергия, климат, сельское хозяйство",
+      "hint": "Цены на энергию, климатическая политика, продовольствие",
+      "categories": ["energy", "nuclear_power", "climate_change", "ecology_|_france", "agriculture"]
+    },
+    "europe_west": {
+      "label": "Западная и Южная Европа",
+      "hint": "Германия, Франция, Италия, Испания, Бенилюкс, Альпы, Пиренеи",
+      "categories": ["germany", "france", "italy", "spain", "portugal", "the_netherlands", "belgium", "austria", "switzerland_(de)", "switzerland_(fr)", "ireland", "greece", "malta", "madeira_island"]
+    },
+    "europe_nordic": {
+      "label": "Северная Европа и Балтия",
+      "hint": "Скандинавия, Исландия, Эстония, Латвия, Литва",
+      "categories": ["sweden", "norway", "denmark", "finland", "iceland", "estonia", "latvia", "lithuania"]
+    },
+    "europe_central": {
+      "label": "Центральная Европа, Балканы, Восточное партнёрство",
+      "hint": "Польша, Украина, Чехия, Венгрия, Балканы, Молдова, Грузия",
+      "categories": ["poland", "ukraine", "romania", "czech_republic", "slovakia", "hungary", "bulgaria", "croatia", "slovenia", "serbia", "bosnia_and_herzegovina", "montenegro", "north_macedonia", "kosovo", "albania", "moldova", "georgia"]
+    },
+    "americas": {
+      "label": "Северная и Латинская Америка",
+      "hint": "Канада, Мексика, Южная Америка, Карибы",
+      "categories": ["canada", "mexico", "brazil", "argentina", "chile", "colombia", "venezuela", "costa_rica", "dominican_republic", "caribbean"]
+    },
+    "asia_pacific": {
+      "label": "Азия и Океания",
+      "hint": "Япония, Корея, Тайвань, Юго-Восточная Азия, Индия, Австралия",
+      "categories": ["japan", "south_korea", "taiwan", "hong_kong", "singapore", "malaysia", "indonesia", "philippines", "thailand", "vietnam", "india", "pakistan", "bangladesh", "australia", "new_zealand"]
+    },
+    "africa_mena": {
+      "label": "Африка и Магриб",
+      "hint": "Субсахарская Африка и Северная Африка",
+      "categories": ["africa", "nigeria", "kenya", "ghana", "ethiopia", "rwanda", "tanzania", "south_africa", "dr_congo", "morocco", "algeria"]
+    },
+    "society_culture": {
+      "label": "Общество, культура, игры",
+      "hint": "Кино, музыка, религия, социальные темы, видеоигры",
+      "categories": ["entertainment", "movies", "music", "metal_music", "catholic", "positive_news", "homelessness", "gaming", "nintendo", "simulation_games"]
+    },
+    "sports": {
+      "label": "Спорт",
+      "hint": "Футбол, американские лиги, автоспорт, единоборства",
+      "categories": ["sports", "soccer", "u.s._soccer", "french_football", "french_sports", "mlb", "nba", "nfl", "nhl", "mma", "formula_1", "cycling", "professional_wrestling"]
+    },
+    "local": {
+      "label": "Локальные и региональные ленты",
+      "hint": "Города и штаты/земли: USA | Texas, Germany | Bavaria, UK | Scotland…",
+      "categories": ["north_carolina", "bay"]
+    },
+    "other": {
+      "label": "Прочее",
+      "hint": "Категории, появившиеся в каталоге после публикации плагина",
+      "categories": []
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "created": "{{ДАТА}}",
+  "base_dir": "{{АБСОЛЮТНЫЙ путь к рабочей папке}}",
+  "issues_dir": "Выпуски",
+  "note_prefix": "SWOT_",
+  "timezone": "{{IANA-имя, напр. Europe/Berlin; null = системное время}}",
+  "lang": "en",
+  "batch_hour_utc": 12,
+  "entries_budget": 8,
+  "obsidian": {
+    "enabled": false,
+    "base_file": false
+  },
+  "enricher": {
+    "tool": "off"
+  },
+  "context": {
+    "extra_files": []
+  },
+  "clusters": {
+    "a": {
+      "label": "{{ярлык от --build-clusters}}",
+      "categories": ["world", "ai"]
+    }
+  }
+}

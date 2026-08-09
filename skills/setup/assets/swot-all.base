@@ -1,0 +1,37 @@
+filters:
+  and:
+    - note.type == "swot-item"
+formulas:
+  item_link: link(file.path, file.basename)
+  priority: impact * likelihood
+  urgency: if(impact * likelihood >= 20, "🔴", if(impact * likelihood >= 15, "🟡", "🟢"))
+views:
+  - type: table
+    name: Все элементы
+    filters:
+      and:
+        - status == "active"
+    groupBy:
+      property: swot_type
+      direction: ASC
+    order:
+      - formula.urgency
+      - formula.item_link
+      - formula.priority
+      - decision
+      - last_reviewed
+    sort:
+      - property: formula.priority
+        direction: DESC
+  - type: table
+    name: Архив
+    filters:
+      and:
+        - status != "active"
+    order:
+      - formula.item_link
+      - swot_type
+      - last_reviewed
+    sort:
+      - property: last_reviewed
+        direction: DESC
