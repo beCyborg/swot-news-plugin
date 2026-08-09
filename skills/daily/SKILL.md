@@ -5,7 +5,7 @@ description: |
   Используй этот скилл, когда пользователь просит: обзор новостей, утренний брифинг, news SWOT, анализ новостей, «что происходит в мире», «новости дня», daily briefing, morning report, Kagi News. Также используй, если пользователь упоминает «SWOT новостей» или хочет понять, как мировые события влияют на его жизнь и работу.
 argument-hint: "[--force]"
 disallowed-tools: AskUserQuestion
-allowed-tools: Read, Write, Edit, Glob, Grep, Agent, Bash(python3 *), Bash(python *), Bash(py *), Bash(date *), Bash(ls *)
+allowed-tools: Read, Write, Edit, Glob, Grep, Agent, Bash(python3 *), Bash(python *), Bash(py *), Bash(date *), Bash(ls *), Bash(mkdir *)
 ---
 
 # SWOT News — ежедневный дельта-пайплайн
