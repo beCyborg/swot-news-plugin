@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
   "name": "swot-news-plugin",
   "description": "SWOT News — ежедневный персональный SWOT-анализ мировых новостей с Kagi News",
   "owner": {
